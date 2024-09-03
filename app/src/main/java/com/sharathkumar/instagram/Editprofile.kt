@@ -21,6 +21,7 @@ class Editprofile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         binding=ActivityEditprofileBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
         FirebaseFirestore.getInstance().collection("users").
