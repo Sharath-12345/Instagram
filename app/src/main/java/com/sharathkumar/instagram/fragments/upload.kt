@@ -3,18 +3,16 @@ package com.sharathkumar.instagram.fragments
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
+import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
-import com.sharathkumar.instagram.R
 import com.sharathkumar.instagram.databinding.FragmentUploadBinding
 import com.sharathkumar.instagram.uploadadapter
-import java.util.jar.Manifest
+
 
 class upload : Fragment() {
 

@@ -1,17 +1,14 @@
 package com.sharathkumar.instagram
 
-import android.app.Activity.RESULT_OK
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
-import com.sharathkumar.instagram.databinding.FragmentUploadBinding
 import com.sharathkumar.instagram.databinding.FragmentUploadpostsBinding
-import com.sharathkumar.instagram.databinding.FragmentUserpostsBinding
 
 
 class uploadposts : Fragment() {

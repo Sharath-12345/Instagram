@@ -1,22 +1,16 @@
 package com.sharathkumar.instagram.fragments
 
-import android.Manifest
-import android.content.pm.PackageManager
-import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.content.ContextCompat
+
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.firestore.FirebaseFirestore
-import com.sharathkumar.instagram.UserDetails
+
 import com.sharathkumar.instagram.UserDetailsReels
-import com.sharathkumar.instagram.databinding.FragmentHomeeBinding
+
 import com.sharathkumar.instagram.databinding.FragmentReelsBinding
 import com.sharathkumar.instagram.reelshowingadapter
 

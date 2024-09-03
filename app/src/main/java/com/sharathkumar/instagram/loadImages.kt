@@ -5,8 +5,6 @@ import android.content.Context
 import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
-import androidx.core.content.ContentProviderCompat.requireContext
-import androidx.fragment.app.Fragment
 
 fun loadImages(context: Context): List<Uri> {
     val imageUris = mutableListOf<Uri>()
