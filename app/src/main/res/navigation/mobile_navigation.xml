@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homee">
+
+
+    <fragment
+        android:id="@+id/homee"
+        android:name="com.sharathkumar.instagram.fragments.homee"
+        android:label="fragment_homee"
+        tools:layout="@layout/fragment_homee" />
+    <fragment
+        android:id="@+id/search"
+        android:name="com.sharathkumar.instagram.fragments.search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/upload"
+        android:name="com.sharathkumar.instagram.fragments.upload"
+        android:label="fragment_upload"
+        tools:layout="@layout/fragment_upload" />
+    <fragment
+        android:id="@+id/reels"
+        android:name="com.sharathkumar.instagram.fragments.reels"
+        android:label="fragment_reels"
+        tools:layout="@layout/fragment_reels" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.sharathkumar.instagram.fragments.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

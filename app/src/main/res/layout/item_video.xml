@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/largeImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <ImageView
+            android:id="@+id/smallImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/playic"
+            app:layout_constraintTop_toTopOf="@id/largeImageView"
+            app:layout_constraintStart_toStartOf="@id/largeImageView"
+            app:layout_constraintEnd_toEndOf="@id/largeImageView"
+            app:layout_constraintBottom_toBottomOf="@id/largeImageView"
+            />
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
